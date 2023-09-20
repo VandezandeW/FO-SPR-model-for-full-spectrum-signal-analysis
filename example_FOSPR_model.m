@@ -24,15 +24,12 @@ lambda = (550:1:900)';% [nm]
 d_layers = [ ...
     dAu ...
     ];% [nm]
-d_layers_2 = [ ...
-    d_layers ...
-    ];
 d_layers_reference = d_layers;
 L = 2 * 6;% [mm] times two because of back reflection
 D = 400;% [µm]
 
 % Numerical aperture (NA) is actually 0.39 for the FO-SPR optical fiber.
-% However the bifurcated fiber has a NA of 0.22.
+% However the bifurcated fiber has an NA of 0.22.
 % NA is only implemented with analytically described ray angular
 % distribution from the literature.
 % NA = 0.22;
